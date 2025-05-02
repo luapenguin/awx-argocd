@@ -8,7 +8,7 @@ spec:
   admin_password_secret: awx-admin-password
 
   ingress_type: ingress
-  hostname: awx-argocd.example.com
+  hostname: awx-argocd.dev.domain.io
 
   postgres_configuration_secret: awx-postgres-configuration
 

@@ -16,7 +16,7 @@ spec:
   projects_storage_access_mode: ReadWriteOnce
 
   web_replicas: 1
-  task_replicas: 10
+  task_replicas: 5
 
   web_resource_requirements: {}
   task_resource_requirements: {}

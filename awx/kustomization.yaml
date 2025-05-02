@@ -27,9 +27,9 @@ secretGenerator:
       - password=Ansible123!
 
 resources:
-  - github.com/ansible/awx-operator/config/default?ref=2.11.1
+  - github.com/ansible/awx-operator/config/default?ref=2.11.2
   - awx.yaml
 
 images:
   - name: quay.io/ansible/awx-operator
-    newTag: 2.11.1
+    newTag: 2.11.2
